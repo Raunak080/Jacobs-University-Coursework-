@@ -1,0 +1,18 @@
+/*
+CH-230-A
+a10_p1
+Raunak Babu Shrestha
+raushresth@jacobs-university.de
+*/
+
+
+
+When we remove 'using namespace std;' it shows an error message as the code cannot define context in which names are defined. 
+In simpler terms, we are unable to use standard functionalities like cout, 
+cin and endl which makes it invalid to declare other classes like name. 
+
+
+
+When we remove 'Critter::' in 'Critter.cpp', it shows the error message because all the 
+properties of Critter ( such as name and hunger) are defined inside the Critter class . 
+Without the class, the definitions of critter cannot be defined. 
